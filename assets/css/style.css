@@ -199,6 +199,16 @@ hr {
   color: #3a3a3a;
 }
 
+/* media queries large or landscape phone 567px */
+
+@media screen and (min-width: 567px) {
+  #photos {
+    column-count: 2;
+    column-gap: 0;
+  }
+}
+
+/* media queries tablet 768px */
 @media screen and (min-width: 768px) {
   /* header */
   nav {
@@ -257,13 +267,23 @@ hr {
   #benefits-physical > div {
     text-align: start;
   }
+
+  #photos {
+    column-count: 3;
+  }
 }
+
+/* media queries desktop 992px */
 @media screen and (min-width: 992px) {
   #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
   }
+  #photos {
+    column-count: 4;
+  }
 }
 
+/* media queries desktop 1200px */
 @media screen and (min-width: 1200px) {
   #benefits {
     display: flex;
