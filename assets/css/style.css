@@ -247,21 +247,21 @@ label {
   padding: 0 5px;
 }
 
-#radio-buttons{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0;
-    width: 100%;
+#radio-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  width: 100%;
 }
 
-.join-button{
-    background-color: #454b1b;
-    color: #fafafa;
-    font-size: 100%;
-    border: 1px solid #fff;
-    border-radius: 2px;
-    width: 100%;
-    padding: 15px 32px;
+.join-button {
+  background-color: #454b1b;
+  color: #fafafa;
+  font-size: 100%;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  width: 100%;
+  padding: 15px 32px;
 }
 
 /* media queries large or landscape phone 567px */
@@ -334,6 +334,24 @@ label {
 
   #photos {
     column-count: 3;
+  }
+
+  #signup {
+    padding-left: 5%;
+  }
+
+  #signup-form {
+    position: absolute;
+    max-width: 400px;
+  }
+
+  .text-input:hover {
+    border-color: #f16c6b;
+  }
+
+  .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
   }
 }
 
